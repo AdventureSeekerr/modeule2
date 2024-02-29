@@ -1,0 +1,17 @@
+.form-registration{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+}
+.form-registration__input:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.form-registration__input{
+    height: 30px;
+ 
+}
