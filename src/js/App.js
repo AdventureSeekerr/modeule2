@@ -13,6 +13,7 @@ export default function App() {
         </ul>
       </nav> */}
 
+
       <Routes>
         <Route path="/" element={<Registration />} />
       </Routes>
