@@ -12,6 +12,17 @@
 }
 
 .form-registration__input{
+    width: 700px;
     height: 30px;
- 
+    border: 1px solid red;
 }
+.valid-input {
+    width: 700px;
+    height: 30px;
+    border: 1px solid #222;
+    margin-bottom: 30px;
+}
+/* }
+.invalid-input{
+    border: 1px solid red;
+} */

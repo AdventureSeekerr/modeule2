@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import Registration from "./Registration";
-import Home from "./Sign-in";
+import SignIn from "./Sign-in";
 
 export default function App() {
   return (
@@ -16,6 +16,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Registration />} />
+        <Route path="/signIn" element={< SignIn />} />
       </Routes>
     </>
 
