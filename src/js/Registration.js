@@ -25,6 +25,7 @@ function About() {
         setInputValue(e.target.value);
     }
     const passwodrHandle = (e) => {
+            
         setPassValue(e.target.value);
     }
     const repeatPassHandle = (e) => {
